@@ -4,12 +4,13 @@ import styled from "styled-components"
 const Container = styled.div`
     background-color:#709F9D;
     height:30px;
-    color:#FFFDD0;
+    color:white;
     display:flex;
     justify-content:center;
     align-items:center
     font-size:14px;
     font-weight: 500px;
+    letter-spacing:2px;
 
 `
 
