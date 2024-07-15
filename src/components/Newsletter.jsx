@@ -69,7 +69,7 @@ const Newsletter = () => {
   return (
     <Container>
         <Title>News Letter</Title>
-        <Desc> Get timely updates from your favorite products.</Desc>
+        <Desc> Get timely updates from your favorite Vintage  Style products.</Desc>
         <InputContainer>
             <Input placeholder="Email"/>
             <Button>
