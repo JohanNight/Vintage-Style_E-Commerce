@@ -6,9 +6,15 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Pinterest, Room, Phone, MailOutline } from '@mui/icons-material';
+import {mobile} from "../Responsive"
+
 
 const Container = styled.div`
     display:flex;
+
+    ${mobile({
+       flexDirection:"column"
+    })}
 `
 
 const Left= styled.div`
@@ -49,6 +55,10 @@ const SocialIcon = styled.div`
 const Center = styled.div`
     flex:1;
     padding:20px;
+
+    ${mobile({
+        display:"none"
+    })}
 `
 
 const Title= styled.h3`

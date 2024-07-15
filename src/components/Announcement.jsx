@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import { mobile } from "../Responsive"
 
 const Container = styled.div`
     background-color:#709F9D;
@@ -7,10 +7,14 @@ const Container = styled.div`
     color:white;
     display:flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
     font-size:14px;
     font-weight: 500px;
     letter-spacing:2px;
+
+    ${mobile({
+      fontSize:"12px"
+    })}
 
 `
 
